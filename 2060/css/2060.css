@@ -1,0 +1,136 @@
+.type-331 .findhome-team,
+.type-331 .findhome-team-list figure a,
+.type-331 .findhome-team-list figure a img {
+  float: left;
+  width: 100%;
+}
+.type-331 .findhome-classic-team ul li {
+  list-style: none;
+}
+.type-331 .findhome-classic-team ul li:hover .findhome-classic-team-text {
+  transition: scale(1);
+  background: #00aeef;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  transform: translateY(-10px);
+  color: #fff;
+}
+.type-331 .findhome-classic-team ul li:hover .findhome-classic-team-text a {
+  color: #fff;
+}
+.type-331 .findhome-classic-team ul li:hover .findhome-classic-team-text .span::before {
+  background: #fff;
+}
+.type-331 .owl-carousel {
+  display: none;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.type-331 .owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0px,0px,0px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.type-331 .owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+.type-331 .owl-carousel .owl-item img {
+  position: relative;
+  display: block;
+}
+.type-331 .owl-carousel .owl-dots.disabled {
+  display: none;
+}
+.type-331 .owl-carousel.owl-loaded {
+  display: block;
+}
+.type-331 .owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+.type-331 .owl-nav {
+  display: none;
+}
+.type-331 .findhome-classic-team-text {
+  text-align: center;
+  position: relative;
+  border: 1px solid #ececec;
+  margin: 50px 10px 0px;
+  padding: 78px 34px 23px;
+  transform: translateY(10px);
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.type-331 .findhome-classic-team-text figure {
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid #ececec;
+  margin: 0px 0px 0px -49px;
+}
+.type-331 .findhome-classic-team-text figure img {
+  border-radius: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.type-331 .findhome-classic-team-text h5 {
+  font-weight: 600;
+  margin: 0px;
+  line-height: 1;
+}
+.type-331 .findhome-classic-team-text h5 a {
+  color: #004274;
+}
+.type-331 .findhome-classic-team-text h5 a:hover {
+  text-decoration: none;
+}
+.type-331 .findhome-classic-team-text span {
+  display: inline-block;
+  margin: 0px 0px 13px;
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: 0px 0px 11px;
+}
+.type-331 .findhome-classic-team-text span::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  width: 23px;
+  height: 1px;
+  margin: 0px 0px 0px -11px;
+  background-color: #004274;
+}
+.type-331 .findhome-classic-team-text p {
+  margin: 0px 0px 15px;
+  letter-spacing: 0.4px;
+}
+.type-331 .findhome-classic-team-text .findhome-team-social {
+  display: inline-block;
+  margin: 0px;
+}
+.type-331 .findhome-classic-team-text .findhome-team-social li {
+  display: inline-block;
+  margin: 0px 4px 0px 0px;
+  list-style: none;
+}
+.type-331 .findhome-classic-team-text .findhome-team-social li a {
+  font-size: 16px;
+  color: #808285;
+}

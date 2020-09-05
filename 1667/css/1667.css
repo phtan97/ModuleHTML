@@ -1,0 +1,78 @@
+.type-i-22 {
+  font-family: Work San;
+}
+.type-i-22 .stock {
+  color: #690;
+}
+.type-i-22 .quantity {
+  float: left;
+  margin: 5px 20px 0 0;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 0;
+}
+.type-i-22 .quantity .tc {
+  text-align: center;
+}
+.type-i-22 .quantity .tc .plus:hover,
+.type-i-22 .quantity .tc .minus:hover {
+  background: #fcb800;
+}
+.type-i-22 .quantity .qty a {
+  float: left;
+  width: 40px;
+  height: 43px;
+  background: none;
+}
+.type-i-22 .quantity i {
+  color: #777;
+  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.type-i-22 .quantity i:hover {
+  color: white;
+}
+.type-i-22 .quantity input {
+  border: none;
+  width: 60px;
+  height: 43px;
+  line-height: 43px;
+  background: none;
+  margin: 0 10px;
+  float: left;
+  padding: 0 5px;
+  margin: 0;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.type-i-22 .add-cart {
+  text-align: center;
+  border-radius: 2px;
+  border: solid 1px #fcb800;
+  background: #fcb800;
+  color: black;
+  height: 55px;
+  margin-top: 15px;
+}
+.type-i-22 .add-cart h2 {
+  font-size: 1em;
+}
+.type-i-22 .add-cart:hover {
+  border: solid 1px #fcb800;
+  background: white;
+  cursor: pointer;
+  transition: ease .15s all;
+}
+.type-i-22 .wl {
+  font-size: 2em;
+  margin-top: 25px;
+  color: #999;
+}
+.type-i-22 .wl:hover {
+  cursor: pointer;
+  color: #fcb800;
+}

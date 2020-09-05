@@ -1,0 +1,309 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2017, 11:23:40 PM
+    Author     : Administrator
+*/
+@color: #06c;
+@width-height: 20px;
+@col-white: #fff;
+@col-blue: #106EAA;
+.type-3 {
+    padding: 10px 20px;
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+    .line {
+        border: 0.5px solid rgba(0,0,0,.15);
+    }
+    .top-title {
+        
+        display: inline-block;
+        .title {
+            display: inline-block;
+            margin-bottom: 0px;
+            font-weight: 500;
+            line-height: 32px;
+            padding: 5px 0;
+        }
+        .list-category {
+
+           position: relative;
+            left: 120%;
+            float: right;
+            list-style: none;
+            padding-top: 40px;
+            font-family: Work Sans;
+            font-size: 1.2em;
+
+            li {
+                padding-left: 10px;
+                display: inline-block;
+                a {
+                    color: #000;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: #fcb800;
+                    transition: all .25s ease;
+                }
+            }
+
+        }
+    }
+    .owl-carousel .owl-stage {
+
+    }
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        //margin-top: 50px;
+        //margin-bottom: 50px;
+    }
+    .owl-carousel .owl-item {
+        position: relative;
+        min-height: 1px;
+        float: left;
+        -webkit-backface-visibility: hidden;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+    }
+    .owl-carousel .owl-dots.disabled {display: none; }
+    .owl-carousel.owl-loaded {display: block; }
+    .owl-carousel.owl-loading {
+        opacity: 0;
+        display: block; }
+    .owl-carousel{
+        .new-sign-up{
+            position: relative;
+            display: block;
+            margin: 12px;
+            
+            overflow: hidden;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            background-color: @col-white;
+            transition: all .3s ease-in-out;
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                
+                h3{
+                    color: #fcb800;
+                    text-decoration: underline;
+                    font-family: Work Sans;
+                    transition: all .15s ease-in-out;
+                }
+            }
+           
+            
+            .count, h3, p {
+                position: relative;
+                margin: 0 0 0 10px;
+                z-index: 5;
+                padding: 0;
+            }
+            .count {
+                font-size: 38px;
+                font-weight: 700;
+                line-height: 1.65857;
+                color: @col-blue;
+            }
+            h3 {
+                color: @color;
+                font-family: Work Sans;
+                font-size: 1.4em;
+                font-weight: 400 !important;
+            }
+            p {
+                margin-top: 5px;
+                font-size: 13px;
+                color: @color;
+            }
+            .product-btn {
+                
+                position: absolute;
+                bottom: 28%;
+                right: 0;
+                z-index: 2;
+                width: 100%;
+                padding: 10px 0;
+                background-color: #fff;
+                opacity: 0;
+                visibility: hidden;
+                .product-list {
+                    font-size: 1.3em;
+                    a {
+
+                        i {
+                            padding: 10px;
+                            color: black;
+                        }
+                    }
+                    a:hover {
+                        display: inline-block;
+                        background: #fcb800;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        .new-sign-up:hover {
+            .product-btn {
+                opacity: 1;
+                visibility: visible;
+                -webkit-transition: visibility .25s ease,opacity .25s ease, margin .25s ease;
+            }
+        }       
+    }
+    .owl-nav   {
+        .owl-prev{
+            left: -5rem;
+        }
+        .owl-next{
+            right: -5rem;
+        }
+        .owl-next, .owl-prev{
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 150px;
+            
+            
+            
+            -webkit-transition: 0.2s all linear;
+            transition: 0.2s all linear;
+            color: #ccc;
+            font-size: 2em;
+
+            text-decoration: none;
+        }
+
+        .owl-next:hover, .owl-prev:hover{
+            
+            color: black;
+            -webkit-transition: 0.2s all linear;
+            transition: 0.2s all linear;
+
+        }
+    }
+}
+    @media (max-width: 1280px){
+        .owl-prev{
+            left: -5rem !important;
+        }
+        .owl-next{
+            right: -5rem !important;
+        }
+        .owl-nav {
+            .owl-next, .owl-prev {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    @media (max-width: 1140px){
+        .owl-prev{
+            left: -5rem !important;
+        }
+        .owl-next{
+            right: -5rem !important;
+        }
+        .owl-nav {
+            .owl-next, .owl-prev {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    @media (max-width: 1024px){
+        //.owl-prev{
+        //    left: -5rem !important;
+        //}
+        //.owl-next{
+        //    right: -5rem !important;
+        //}
+        .owl-nav {
+            .owl-next, .owl-prev {
+                //display: -webkit-box;
+                //display: -webkit-flex;
+                //display: -ms-flexbox;
+                display: none;
+                //width: 50px;
+                //height: 50px;
+            }
+        }
+    }
+    @media (max-width: 768px){
+        //.owl-prev{
+        //    left: -5rem !important;
+        //}
+        //.owl-next{
+        //    right: -5rem !important;
+        //}
+        .owl-nav {
+            .owl-next, .owl-prev {
+                //display: -webkit-box;
+                //display: -webkit-flex;
+                //display: -ms-flexbox;
+                display: none;
+                //width: 50px;
+                //height: 50px;
+            }
+        }
+    }
+    @media (max-width: 480px){
+        .owl-next{
+             right: -2rem;
+         }
+        .owl-prev{
+            left: -2rem;
+        }
+        .owl-nav {
+            .owl-next, .owl-prev{
+                display: none;
+            }
+        }
+    }
+    @media (max-width: 320px){
+        .owl-next{
+            right: -2rem;
+        }
+        .owl-prev{
+            left: -2rem;
+        }
+        .owl-nav {
+            .owl-next, .owl-prev{
+                display: none;
+            }
+        }
+    }
+

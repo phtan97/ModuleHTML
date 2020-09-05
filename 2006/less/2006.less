@@ -1,0 +1,75 @@
+.type-i-22 {
+	background-image: url("../images/home-product.jpg");
+	font-family: "Lora", serif;
+	.titile {
+		text-align: center;
+		margin-bottom: 20px;
+		h1 {
+			font-family: "Kaushan Script", cursive;
+
+		}
+		img {
+			width: 75px;
+		}
+	}
+	.product {
+		display: flex;
+		.product-img {
+			position: relative;
+			transition: ease 1s all;
+			.product-list {
+				position: absolute;
+				bottom: 40%;
+				a {
+					margin-left: 20px;
+					margin-right: 20px;
+					font-size: 1.2em;
+					transition: ease 1s all;
+					opacity: 0;
+					
+					i {
+						
+						background: black;
+						color: white;
+						padding: 15px;
+						border-radius: 50%;
+					}
+					i:hover {
+						background: #cd9b33;
+					}
+				}
+			}
+		}
+		.product-img:hover {
+			transform: scale(0.9);
+			transition: ease 1s all;
+			a {
+				opacity: 1;
+				-webkit-transition: all .4s ease-in-out;
+			  -moz-transition: all .4s ease-in-out;
+			  -ms-transition: all .4s ease-in-out;
+			  -o-transition: all .4s ease-in-out;
+			  transition: ease 1s all;
+
+			}
+		}
+		.product-titile {
+			margin-top: 20px;
+		}
+		a {
+			color: black;
+
+		}
+		a:hover {
+			color: #cd9b33;
+			text-decoration: none;
+			transition: ease .2s all;
+
+		}
+		p {
+			a {
+				color: #4e3939;
+			}
+		}
+	}
+}

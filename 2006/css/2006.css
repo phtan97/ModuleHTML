@@ -1,0 +1,67 @@
+.type-i-22 {
+  background-image: url("../images/home-product.jpg");
+  font-family: "Lora", serif;
+}
+.type-i-22 .titile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.type-i-22 .titile h1 {
+  font-family: "Kaushan Script", cursive;
+}
+.type-i-22 .titile img {
+  width: 75px;
+}
+.type-i-22 .product {
+  display: flex;
+}
+.type-i-22 .product .product-img {
+  position: relative;
+  transition: ease 1s all;
+}
+.type-i-22 .product .product-img .product-list {
+  position: absolute;
+  bottom: 40%;
+}
+.type-i-22 .product .product-img .product-list a {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.2em;
+  transition: ease 1s all;
+  opacity: 0;
+}
+.type-i-22 .product .product-img .product-list a i {
+  background: black;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.type-i-22 .product .product-img .product-list a i:hover {
+  background: #cd9b33;
+}
+.type-i-22 .product .product-img:hover {
+  transform: scale(0.9);
+  transition: ease 1s all;
+}
+.type-i-22 .product .product-img:hover a {
+  opacity: 1;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: ease 1s all;
+}
+.type-i-22 .product .product-titile {
+  margin-top: 20px;
+}
+.type-i-22 .product a {
+  color: black;
+}
+.type-i-22 .product a:hover {
+  color: #cd9b33;
+  text-decoration: none;
+  transition: ease .2s all;
+}
+.type-i-22 .product p a {
+  color: #4e3939;
+}

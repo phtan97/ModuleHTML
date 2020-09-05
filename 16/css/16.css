@@ -1,0 +1,122 @@
+.type-16 {
+  text-align: center;
+}
+.type-16 .owl-carousel {
+  display: none;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.type-16 .owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0px,0px,0px);
+  margin-top: 50px;
+}
+.type-16 .owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+.type-16 .owl-carousel .owl-item img {
+  position: relative;
+  display: block;
+}
+.type-16 .owl-carousel .owl-dots.disabled {
+  display: none;
+}
+.type-16 .owl-carousel.owl-loaded {
+  display: block;
+}
+.type-16 .owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+.type-16 .owl-nav {
+  display: inline-flex;
+}
+.type-16 .owl-nav .owl-prev,
+.type-16 .owl-nav .owl-next {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 20px;
+  position: absolute;
+  top: 50%;
+  padding: 10px 5px;
+  border-radius: 50%;
+  margin: 0 2px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+}
+.type-16 .owl-nav .owl-next {
+  right: 0;
+}
+.type-16 .owl-nav .owl-prev {
+  left: 0;
+}
+.type-16 .owl-nav .owl-next:hover,
+.type-16 .owl-nav .owl-prev:hover {
+  background: #5ab66e;
+  color: white;
+}
+.type-16 .header {
+  color: #5ab66e;
+  font-size: 24px;
+  font-weight: 300;
+  position: relative;
+  display: inline-block;
+  font-family: Roboto, arial, sans-serif;
+}
+.type-16 .review {
+  border-left: 0;
+  max-width: 800px;
+  font-weight: 100;
+  font-size: 16px;
+  color: #6c727e;
+  font-style: italic;
+}
+.type-16 .center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-16 blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+}
+.type-16 .rating i {
+  color: #F8A13F;
+}
+.type-16 .source .name {
+  color: #9499a3;
+  font-size: 16px;
+}
+.type-16 .source .meta {
+  color: #9499a3;
+  margin-top: 5px;
+}
+.type-16 .owl-dots {
+  margin: 25px auto;
+  text-align: center;
+}
+.type-16 .owl-dots button {
+  background: transparent;
+  border: none;
+  padding: 0 20px 0 20px;
+  opacity: 0.5;
+}
+.type-16 .owl-dots button img {
+  width: 60px;
+}

@@ -1,0 +1,70 @@
+.type-i-22 {
+  font-family: "Lora", serif;
+  background: #22202e;
+  text-align: center;
+  color: white;
+}
+.type-i-22 .logo {
+  text-align: center;
+}
+.type-i-22 .logo img {
+  width: 50%;
+  height: 50%;
+}
+.type-i-22 .logo p {
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+}
+.type-i-22 .logo .logo-footer {
+  text-align: center;
+}
+.type-i-22 .logo .logo-footer a {
+  padding: 10px;
+  color: black;
+}
+.type-i-22 .logo .logo-footer a i {
+  padding-top: 8px;
+  background: #b3b3b3;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.type-i-22 .logo .logo-footer a i:hover {
+  background: #cd9b33;
+  transition: ease 0.15s all;
+}
+.type-i-22 .input-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.type-i-22 .input-group input {
+  background: transparent;
+  border-radius: 50px 0 0 50px;
+  padding: 30px;
+}
+.type-i-22 .input-group button {
+  color: white;
+  background: #cd9b33;
+  border: none;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 0 50px 50px 0;
+}
+.type-i-22 .footer {
+  margin: 50px;
+}
+.type-i-22 .footer p,
+.type-i-22 .footer .date-time {
+  color: #979797;
+}
+.type-i-22 .footer .date-time ul {
+  list-style: none;
+}
+.type-i-22 .footer .logo-cards {
+  padding: 20px;
+}
+.type-i-22 .footer .logo-cards a {
+  padding-right: 5px;
+}

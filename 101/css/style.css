@@ -1,0 +1,28 @@
+.type-101 .pg {
+  margin-bottom: 20px;
+}
+.type-101 .imagis img {
+  width: 80%;
+  border-radius: 10px;
+}
+.type-101 .contents h3 {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  .type-101 .contents {
+    margin-top: -20px;
+  }
+  .type-101 .contents h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 636px) {
+  .type-101 .contents h3 {
+    font-size: 12px;
+  }
+  .type-101 h1 {
+    font-size: 26px;
+  }
+}
